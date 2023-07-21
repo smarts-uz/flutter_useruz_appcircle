@@ -108,8 +108,8 @@ class NotificationBloc {
               if (Platform.isAndroid || Platform.isIOS) {
                 Navigator.of(context).pop();
                 final appId = Platform.isAndroid
-                    ? 'uz.smart.useruz.appcircle'
-                    : 'uz.group.useruz.appcircle';
+                    ? 'uz.smart.useruz'
+                    : 'uz.group.useruz';
                 final url = Uri.parse(
                   Platform.isAndroid
                       ? "market://details?id=$appId"

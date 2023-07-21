@@ -126,7 +126,7 @@ class AboutAppSCreen extends StatelessWidget {
               Platform.isIOS
                   ? _launchUrl(
                       'https://apps.apple.com/uz/app/user-uz/id1645713842')
-                  : _launchUrl('market://details?id=uz.smart.useruz.appcircle');
+                  : _launchUrl('market://details?id=uz.smart.useruz');
             },
             margin: const EdgeInsets.fromLTRB(16, 16, 16, 24),
           )

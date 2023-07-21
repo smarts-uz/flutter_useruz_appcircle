@@ -1,4 +1,4 @@
-package uz.smart.useruz.appcircle
+package uz.smart.useruz
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 

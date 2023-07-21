@@ -176,7 +176,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   ],
                                   webAuthenticationOptions:
                                       WebAuthenticationOptions(
-                                    clientId: 'uz.group.useruz.appcircle',
+                                    clientId: 'uz.group.useruz',
                                     redirectUri: Uri.parse(
                                       'https://flutter-sign-in-with-apple-example.glitch.me/callbacks/sign_in_with_apple',
                                     ),
